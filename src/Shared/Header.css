@@ -1,0 +1,15 @@
+.active {
+    color: blue;
+    background-color: whitesmoke;
+    font-weight: 700;
+    font-style: italic;
+    padding: 8px 12px;
+    border: 1px solid blue;
+    border-radius: 10px 5px 5px 20px;
+}
+
+.custom:hover {
+    color: aqua;
+    transform: scale(1.5);
+    transition: transform .8s ease;
+}
