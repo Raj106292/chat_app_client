@@ -1,0 +1,38 @@
+.sign-up {
+    background-image: url(../../assets/signup_BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.custom-input {
+    padding: 10px 12px;
+    border-bottom: 2px solid rgb(223, 169, 149);
+    color: white;
+}
+
+.custom-input:focus{
+    border-radius: 10px;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: rgb(229, 104, 104);
+    font-weight: 600;
+}
+
+.signup-button {
+    color: coral;
+    font-weight: 700;
+}
+
+.signup-button:hover {
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+.signup:hover {
+    transition: transform .8s ease;
+    transform: scale(1.5);
+}
